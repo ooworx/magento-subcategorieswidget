@@ -13,14 +13,16 @@ If you have more ideas, please contribute :)
 
 ## Usage
 
-Edit any CMS page or Static block
+1) Edit any CMS page or Static block
 
-Add widget > OOWORX
+2) Add widget > OOWORX
 
-Configure widget :
-1. Select root category for exploring categories
+3) Configure widget :
+
+1. Select root category for exploring categories (3 levels from default store category)
 2. Choose 'max depth' on subcategories (min 1 - max 10)
 3. Add corresponding label(s) to your number of subcategories
+4. Validate and save
 
 ## Compatibility
 
