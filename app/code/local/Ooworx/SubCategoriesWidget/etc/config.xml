@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Ooworx_SubCategoriesWidget>
+      <version>0.0.1</version>
+    </Ooworx_SubCategoriesWidget>
+  </modules>
+  <global>
+    <helpers>
+      <subcategorieswidget>
+	<class>Ooworx_SubCategoriesWidget_Helper</class>
+      </subcategorieswidget>
+    </helpers>
+    <blocks>
+      <subcategorieswidget>
+	<class>Ooworx_SubCategoriesWidget_Block</class>
+      </subcategorieswidget>
+    </blocks>
+    <models>
+      <subcategorieswidget>
+	<class>Ooworx_SubCategoriesWidget_Model</class>
+      </subcategorieswidget>
+    </models>
+  </global>
+  <frontend>
+    <routers>
+      <subcategorieswidget>
+	<use>standard</use>
+	<args>
+	  <module>Ooworx_SubCategoriesWidget</module>
+	  <frontName>subcategorieswidget</frontName>
+	</args>
+      </subcategorieswidget>
+    </routers>
+  </frontend>
+</config>

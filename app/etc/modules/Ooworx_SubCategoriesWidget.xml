@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Ooworx_SubCategoriesWidget>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Ooworx_SubCategoriesWidget>
+  </modules>
+</config>

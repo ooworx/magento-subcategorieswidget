@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<widgets>
+  <subcategorieswidget_subcategorieswidget type="subcategorieswidget/subcategorieswidget" translate="name description" module="subcategorieswidget">
+    <name>OOWORX - SubCategories Explorer</name>
+    <description>Configurable widget to add a form for exploring subcategories level.</description>
+    <parameters>
+      <subcategorieswidget_rootcategory>
+	<label>Root category for first field.</label>
+	<visible>1</visible>
+	<required>1</required>
+	<type>select</type>
+	<source_model>subcategorieswidget/options_rootcategory</source_model>
+      </subcategorieswidget_rootcategory>
+      <subcategorieswidget_maxdepth>
+	<label>Max depth (avoid > 5 in general)</label>
+	<visible>1</visible>
+	<required>1</required>
+	<type>select</type>
+	<source_model>subcategorieswidget/options_maxdepth</source_model>
+      </subcategorieswidget_maxdepth>
+      <subcategorieswidget_label_0>
+	<label>Label for level '0'</label>
+	<visible>1</visible>
+	<required>1</required>
+	<type>text</type>
+      </subcategorieswidget_label_0>
+      <subcategorieswidget_label_1>
+	<label>Label for level '1'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_1>
+      <subcategorieswidget_label_2>
+	<label>Label for level '2'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_2>
+      <subcategorieswidget_label_3>
+	<label>Label for level '3'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_3>
+      <subcategorieswidget_label_4>
+	<label>Label for level '4'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_4>
+      <subcategorieswidget_label_5>
+	<label>Label for level '5'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_5>
+      <subcategorieswidget_label_6>
+	<label>Label for level '6'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_6>
+      <subcategorieswidget_label_7>
+	<label>Label for level '7'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_7>
+      <subcategorieswidget_label_8>
+	<label>Label for level '8'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_8>
+      <subcategorieswidget_label_9>
+	<label>Label for level '10'</label>
+	<visible>1</visible>
+	<required>0</required>
+	<type>text</type>
+      </subcategorieswidget_label_9>
+    </parameters>
+  </subcategorieswidget_subcategorieswidget>
+</widgets>
