@@ -55,7 +55,7 @@ class Ooworx_SubCategoriesWidget_Model_Options_Rootcategory {
 
 	// Load and check root category
         $root_category = Mage::getModel('catalog/category')->load($root_category_id);
-	if (empty($root_category_id->getId())) {
+	if (empty($root_category->getId())) {
 	    throw new Exception("Root category not found...contact dev or support to have help.");
 	}
 	
